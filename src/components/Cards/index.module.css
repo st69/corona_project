@@ -5,6 +5,7 @@
 .card {
     margin: 0 2% !important;
     border-top-left-radius: 65px !important;
+    box-shadow: 5px 5px 5px #ccc !important;
 }
 
 .infected {

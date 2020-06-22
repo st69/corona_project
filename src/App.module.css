@@ -29,6 +29,7 @@ body {
     background: #fff200;
     outline: none;
     color: #000;
+    box-shadow: 2px 2px 3px #ceae00;
 }
 
 .lightTheme {
@@ -38,6 +39,7 @@ body {
     background: #0c2461;
     outline: none;
     color: #fff;
+    box-shadow: 2px 2px 3px #340d5b;
 }
 
 @media (max-width: 768px) {
