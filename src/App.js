@@ -5,6 +5,7 @@ import { Cards, CountryPicker } from "./components"
 import { fetchData } from "./api"
 
 import coronaImage from "./images/corona.png"
+import corona_logo from "./images/corona_logo.png"
 
 class App extends React.PureComponent {
   state = {
@@ -34,7 +35,7 @@ class App extends React.PureComponent {
     return (
       <div className={styles.container} style={toggle ? { backgroundColor: "#000" } : { backgroundColor: "#fff" }}>
         <div className={styles.img_btn_box}>
-          <img src={coronaImage} className={styles.coronaImageStyle} alt="Covid19" />
+          {toggle ? <img src={corona_logo} className={styles.coronaImageStyle} alt="Covid19" /> : <img src={coronaImage} className={styles.coronaImageStyle} alt="Covid19" />}
           <button className={toggle ? styles.darkTheme : styles.lightTheme} onClick={this.handleTheme}>{toggle ? "Light" : "Dark"}</button>
         </div>
         <div className={styles.components_padding}>
