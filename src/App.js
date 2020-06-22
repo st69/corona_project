@@ -41,7 +41,6 @@ class App extends React.PureComponent {
           <CountryPicker handleCountryChange={this.handleCountryChange} />
           <Cards data={data} />
           {/* <Chart data={data} country={country} /> */}
-          <div>Stefaaan</div>
         </div>
       </div >
     )
