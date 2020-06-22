@@ -1,0 +1,15 @@
+.formControl {
+    width: 100%;
+    margin-bottom: 30px !important;
+}
+
+.select_option {
+    padding: 10px !important;
+    background: #fff !important;
+}
+
+@media (max-width: 767px) {
+    .formControl {
+        width: 100%;
+    }
+}
